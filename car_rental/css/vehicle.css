@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+}
+
+/* DASHBOARD */
+
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    width: 200px;
+    background: #111;
+    min-height: 100vh;
+    padding: 15px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.sidebar nav a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.sidebar nav a:hover,
+.sidebar nav .active {
+    background: #fff;
+    color: #000;
+}
+
+/* CONTENT */
+
+.content {
+    width: 100%;
+    padding: 25px;
+}
+
+.top-bar {
+    margin-bottom: 20px;
+}
+
+.top-bar h1 {
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+/* FILTER */
+
+.filter-section {
+    background: #111;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+}
+
+.filter-section input,
+.filter-section select {
+    background: #000;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #555;
+}
+
+/* TABLE */
+
+.table-container {
+    background: #111;
+    padding: 15px;
+    border: 1px solid #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #000;
+    color: white;
+}
+
+th {
+    background: #222;
+    color: white;
+    font-weight: normal;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+/* STATUS */
+
+.available {
+    color: #00cc66;
+}
+
+.rented {
+    color: #ffcc00;
+}
+
+.maintenance {
+    color: #ff6666;
+}
+
+/* BUTTONS */
+
+.add-btn,
+.edit,
+.view,
+.delete,
+.filter-section button,
+.form-container button {
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.add-btn:hover,
+.edit:hover,
+.view:hover,
+.delete:hover,
+.filter-section button:hover,
+.form-container button:hover {
+    background: #ccc;
+}
+
+/* FORM */
+
+.form-container {
+    width: 500px;
+    margin: 40px auto;
+    background: #111;
+    padding: 20px;
+    border: 1px solid #333;
+}
+
+.form-container h1 {
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    background: #000;
+    color: white;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #555;
+}
+
+.form-container a {
+    display: block;
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
+
+/* DASHBOARD CARDS */
+
+.dashboard-cards {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.dash-card {
+    background: #111;
+    border: 1px solid #333;
+    padding: 20px;
+    width: 220px;
+    color: white;
+}
+
+.dash-card h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.dash-card p {
+    font-size: 30px;
+}
+
+@media(max-width: 900px) {
+    .sidebar {
+        width: 100px;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    .form-container {
+        width: 90%;
+    }
+}
+
+
+/*footer*/
+/*footer section*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; 
+}
+
+.logo-footer{
+    width: 150px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap:50px;
+    padding: 20px;
+}
+
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.logotext{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo-text a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    gap:20px;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;}

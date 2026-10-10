@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    max-width: 100%;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color:white;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;  
+}
+
+
+/*footer section*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; 
+}
+
+.logo-footer{
+    width: 150px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap:50px;
+    padding: 20px;
+}
+
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.logotext{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo-text a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    gap:20px;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;}
+
+
+/*header section*/
+
+header{
+    top: 0;
+}
+
+.logo{
+    width: 120px;
+}
+
+.login-button{
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.header-container{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container ul{
+    list-style-type: none;
+    margin: 0;
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.header-container ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+.vehicle-list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.vehicle-item {
+    background: lightgrey;
+    padding: 30px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    color: #e0e0e0;
+}
+
+.vehicle-item h3 {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.vehicle-item p {
+    margin: 5px 0;
+    color: black;
+}
+
+.vehicle-item .price {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.vehicle-item .book-btn {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.vehicle-item .book-btn:hover {
+    background: white;
+    color: black;
+}
+
+.vehicle-item .unavailable-btn {
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.page-title {
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    margin: 30px 0 10px;
+}
+
+.no-vehicles {
+    text-align: center;
+    color: #888;
+    padding: 30px;
+}

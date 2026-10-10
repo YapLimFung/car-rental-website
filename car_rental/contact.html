@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>ContactPage</title>
+</head>
+<body>
+
+    <header> 
+        <div class="header-container">
+            <a href="index.html">
+                <img src="images/atas_logo.png" alt="Logo" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+                <a href="login.html" class="login-button">Login</a>
+        </div>
+    </header>
+
+
+
+<div class="contact-us-container">
+
+    <div class="contact-us-form">
+        <h2>Send us a Message</h2>
+        <p>Fill in the form below and we will get back to you as soon as possible.</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="map-container">
+        <h2>Our Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d15936.462667335503!2d101.62716555!3d3.0637357499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x31cc4c5f9450eaf9%3A0xe4c38bd5f7d440b1!2sTaylor&#39;s%20University%20Lakeside%20Campus%2C%201%2C%20Jln%20Taylors%2C%2047500%20Subang%20Jaya%2C%20Selangor!3m2!1d3.0646492999999997!2d101.6164465!5e0!3m2!1sen!2smy!4v1783993473921!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</div>
+
+</body>
+</html>

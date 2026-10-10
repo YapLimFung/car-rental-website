@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    max-width: 100%;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color:white;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;  
+}
+
+
+/*footer section*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; 
+}
+
+.logo-footer{
+    width: 150px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap:50px;
+    padding: 20px;
+}
+
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.logotext{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo-text a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    gap:20px;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;}
+
+
+/*header section*/
+
+header{
+    top: 0;
+    
+}
+
+.logo{
+    width: 120px;
+}
+
+.login-button{
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.header-container{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container ul{
+    list-style-type: none;
+    margin: 0;
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.header-container ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.vehicle-details {
+    background-color: lightgray;
+    color: black;
+    padding: 30px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.vehicle-details h2{
+    font-size: 30px;
+    color: black;
+}
+
+.booking-form {
+    background-color: lightgray;
+    color: black;
+    padding: 30px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.booking-form h3{
+    font-size: 30px;
+    color: black;
+    padding-bottom: 20px;
+}
